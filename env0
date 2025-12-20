@@ -1,0 +1,11 @@
+PORT=8080
+DB_URI=mongodb://127.0.0.1:27017/UserCol
+JWT_SECRET=YOUR_LONG_RANDOM_SECRET_KEY
+JWT_EXPIRE=5d
+COOKIE_EXPIRE=5
+GOOGLE_CLIENT_ID=294958992534-qq8mpvgi5c9s1julcsbdp4mmn7od6g09.apps.googleusercontent.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_SERVICE=gmail
+SMTP_MAIL=sudharachivra.work@gmail.com
+SMTP_PASSWORD=rqle ohlk awru mpdg
