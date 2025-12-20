@@ -1,0 +1,78 @@
+import { Product } from "@/types/product";
+
+
+export const products: Product[] = [
+    {
+      id: 1,
+      name: "Neelibringadi Kera Thailam",
+      description: "Traditional hair oil for healthy hair growth",
+      image: "https://images.unsplash.com/photo-1662058595162-10e024b1a907",
+      categoryLabel: "Herbal Oils",
+      price: 450,
+      mrp: 585,
+      rating: 4.8,
+      badge: "Best Seller",
+      reviews: 20,
+      benefits: [
+        "Strengthens hair follicles",
+        "Improves hair texture",
+        "Reduces dandruff",
+        "Cooling effect on head",
+      ],
+      ingredients: [
+        "Neeli (Indigofera tinctoria)",
+        "Bhringaraj (Eclipta alba)",
+        "Coconut Oil",
+        "Amla (Phyllanthus emblica)",
+        "Curry Leaves",
+      ],
+    },
+    {
+      id: 2,
+      name: "Triphala Choornam",
+      description: "Triple fruit powder for digestive health",
+      image: "https://images.unsplash.com/photo-1699415513957-b39988293583",
+      categoryLabel: "Powders",
+      price: 180,
+      mrp: 234,
+      rating: 4.8,
+      reviews: 20,
+      benefits: [
+        "Strengthens hair follicles",
+        "Improves hair texture",
+        "Reduces dandruff",
+        "Cooling effect on head",
+      ],
+      ingredients: [
+        "Neeli (Indigofera tinctoria)",
+        "Bhringaraj (Eclipta alba)",
+        "Coconut Oil",
+        "Amla (Phyllanthus emblica)",
+        "Curry Leaves",
+      ],
+    },
+    {
+      id: 3,
+      name: "Ashwagandha Tablets",
+      description: "Stress relief and energy booster",
+      image: "https://images.unsplash.com/photo-1734607402840-902613545974",
+      categoryLabel: "Medicines",
+      price: 320,
+      mrp: 416,
+      rating: 4.8,
+      reviews: 20,
+      benefits: [
+        "Strengthens hair follicles",
+        "Improves hair texture",
+        "Reduces dandruff",
+        "Cooling effect on head",
+      ],
+      ingredients: [
+        "Neeli (Indigofera tinctoria)",
+        "Bhringaraj (Eclipta alba)",
+        "Coconut Oil",
+        "Amla (Phyllanthus emblica)",
+        "Curry Leaves",
+      ],
+    },
+  ];
